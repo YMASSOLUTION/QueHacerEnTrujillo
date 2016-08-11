@@ -1,0 +1,2 @@
+# QueHacerEnTrujillo
+Blog de eventos
