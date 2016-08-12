@@ -1,0 +1,77 @@
+/*-----Estilos Generales-----*/
+* {
+	margin:0px;
+	padding:0px;	
+}
+
+body{
+	background:#160049;
+	font-size:12pt;
+	font-family:helvetica,arial;
+	
+}
+header,#main,footer{
+	width:100%;
+	max-width:960px;
+	margin:0px auto;
+}
+a{
+	color:#ffffff;
+	text-decoration:none;
+}
+a:hover{
+	text-decoration:underline;
+}
+/*-----Header-----*/
+header{
+	margin-top:20px;
+	margin-bottom:20px;
+	overflow:hidden;
+	width:85%;
+}
+header #logo{
+	width:40%;
+	float:left;
+}
+header #logo p{
+	font-family:helvetica,arial;
+	font-size:2rem;
+	font-weight:100;
+	text-align:left;
+	color:#ffffff;
+}
+header #logo span {
+	text-align:center;
+	width:100%;
+	display:block;
+	position:relative;
+	font-family:'Raleway', helvetica, arial, sans-serif;
+	font-weight:400;
+	right:20px;
+	margin-bottom:10px;
+	color:#fff;
+}
+header nav {
+	width:60%;
+	float:right;
+	padding:10px 0px;
+	margin-top:30px;
+}
+header nav ul {
+	float:right;
+}
+header nav ul li {
+	list-style:none;
+	display:inline-block;
+	margin-left:30px;
+	margin-bottom:10px;
+}
+header nav ul li a {
+	font-family:'Raleway', helvetica, arial;
+	font-weight:300;
+	font-size:1.3rem;
+	color:#fff;
+}
+header nav ul li a:hover {
+	color:#bf2222;
+}
