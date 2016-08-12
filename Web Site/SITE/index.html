@@ -4,36 +4,85 @@
 		<meta charset="UTF-8">
 		<title>¿Que Hacer en Trujillo?</title>
 		<meta name="viewport" content="width=device-width">
-		<link rel="stylesheet" type="text/css" href="style.css">
+		
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/responsive.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
+		<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
+		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/jquery.slides.min.js"></script>
 	</head>
 	<body>
 		<!-- Comienso de Cabecera -->
 		<header>
-			<div id="logo">
-					<p>¿Que Hacer En Trujillo?</p>
-					<span>Eventos y mas...</span>
+			<div>
+				<div>
+						<div id="logo">
+								<p>¿Que Hacer En Trujillo?</p>
+								<span>Eventos y mas...</span>
+						</div>
+					
+									
+						<nav>
+							<span class="menu">
+								<img src="images/menu.png" alt=""> 
+							</span>
+							<ul>
+								<li class="active"><a href="#" class="hvr-sweep-to-bottom">Inicio</a></li>
+								<li><a href="#" class="hvr-sweep-to-bottom">Agenda</a></li>
+								<li><a href="#" class="hvr-sweep-to-bottom">Lugares</a></li>
+								<li><a href="#" class="hvr-sweep-to-bottom">Locales</a></li>
+								<li><a href="#" class="hvr-sweep-to-bottom">Nosotros</a></li>
+								<li><a href="#" class="hvr-sweep-to-bottom">Publica tu Evento</a></li>
+							</ul>
+						</nav>
+					
+						<script>
+						$("span.menu").click(function(){
+							$(".nav ul").slideToggle(500, function(){
+							});
+						});
+						</script>
+				</div>
 			</div>
-			<nav>
-				<ul>
-					<li><a href="#">Inicio</a></li>
-					<li><a href="#">Agenda</a></li>
-					<li><a href="#">Lugares</a></li>
-					<li><a href="#">Locales</a></li>
-					<li><a href="#">Nosotros</a></li>
-					<li><a href="#">Publica tu Evento</a></li>
-				</ul>
-			</nav>				
 		</header>
 		
 		<section id="main">
 			<div id="no-slide">
-				<section>
-				
-				</section>
+				<div class="container-fluid">
+					<div class="slider">
+						<iframe class="video" src="https://www.youtube.com/embed/9ZfN87gSjvI?showinfo=0&modestbranding=1&controls=0&autoplay=0" frameborder="0" allowfullscreen></iframe>
+						<div class="text-video">
+							<span>
+								<h1>¿Que Hacer en Trujillo?</h1></br>
+								<h3>Visita Nuestro blog y enterate de los mas grandes eventos de la ciudad</h3></br>
+								<div class="boton">
+									<a href="">Clik Aqui!!!</a>
+								</div>
+								<div class="redes">
+									<ul>
+										<li>
+											<a href=""><img class="icon" src="image/facebook.png"> </img></a>
+										</li>
+										<li>
+											<a href=""><img class="icon" src="image/google.png"> </img></a>
+										</li>
+										<li>
+											<a href=""><img class="icon" src="image/linkedin.png"> </img></a>
+										</li>
+										<li>
+											<a href=""><img class="icon" src="image/skype.png"> </img></a>
+										</li>
+										<li>
+											<a href=""><img class="icon" src="image/title.png"> </img></a>
+										</li>
+
+									</ul> 
+								</div>
+							</span>
+						</div>
+					</div>
+				</div>								
 			</div>
 		</section>
 	</body>
