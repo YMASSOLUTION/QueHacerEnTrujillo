@@ -6,8 +6,6 @@
 		<meta name="viewport" content="width=device-width">
 		
 		<link rel="stylesheet" type="text/css" href="css/reset.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
-		<link rel="stylesheet" type="text/css" href="css/bootstrap-responsive.css">
 		<link rel="stylesheet" type="text/css" href="style.css">
 		<script src="http://code.jquery.com/jquery-latest.min.js"></script>
 		<script src="js/jquery.slides.min.js"></script>
@@ -15,15 +13,11 @@
 	<body>
 		<!-- Comienso de Cabecera -->
 		<header>
-			<div>
-				<div>
-						<div id="logo">
-								<p>¿Que Hacer En Trujillo?</p>
-								<span>Eventos y mas...</span>
-						</div>
-					
-									
-						<nav>
+			<div id="logo">
+				<h1>¿Que Hacer En Trujillo?</h1>
+				<span>Eventos y mas...</span>
+			</div>			
+			<nav>
 							<span class="menu">
 								<img src="images/menu.png" alt=""> 
 							</span>
@@ -34,17 +28,15 @@
 								<li><a href="#" class="hvr-sweep-to-bottom">Locales</a></li>
 								<li><a href="#" class="hvr-sweep-to-bottom">Nosotros</a></li>
 								<li><a href="#" class="hvr-sweep-to-bottom">Publica tu Evento</a></li>
+								<li><a href="#" class="hvr-sweep-to-bottom">Login</a></li>
 							</ul>
-						</nav>
-					
-						<script>
-						$("span.menu").click(function(){
-							$(".nav ul").slideToggle(500, function(){
-							});
-						});
-						</script>
-				</div>
-			</div>
+			</nav>
+			<script>
+				$("span.menu").click(function(){
+					$(".nav ul").slideToggle(500, function(){
+					});
+				});
+			</script>				
 		</header>
 		
 		<section id="main">
@@ -84,6 +76,151 @@
 					</div>
 				</div>								
 			</div>
+			<div id="pagina">
+				<section id="lista_categoria">
+				<select>
+					<option>Categoria 1</option>
+					<option>elemento 1</option>
+					<option>elemento 2</option>
+					<option>elemento 3</option>
+					<option>elemento 4</option>
+				</select>
+
+				<select>
+					<option>Categoria 2</option>
+					<option>elemento 1</option>
+					<option>elemento 2</option>
+					<option>elemento 3</option>
+					<option>elemento 4</option>
+				</select>
+
+				<select>
+					<option>Categoria 3</option>
+					<option>elemento 1</option>
+					<option>elemento 2</option>
+					<option>elemento 3</option>
+					<option>elemento 4</option>
+				</select>
+
+				<select>
+					<option>Categoria 4</option>
+					<option>elemento 1</option>
+					<option>elemento 2</option>
+					<option>elemento 3</option>
+					<option>elemento 4</option>
+				</select>
+				</section>
+				<section id="lista_articulo">
+					<article>
+					<img src="image/im_eventos.jpg" class="thumb">
+					<hgroup>
+						<h2><a href="#">Titulo 1</a></h2>
+					</hgroup>
+					<p class="date">01 de Agosto del 2016 <a href="#">Categoria 1</a></p>
+					<p class="extracto">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
+						lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh 
+						vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+					</p>
+					</article>
+					<article>
+					<img src="image/im_eventos.jpg" class="thumb">
+					<hgroup>
+						<h2><a href="#">Titulo 2</a></h2>
+					</hgroup>
+					<p class="date">01 de Agosto del 2016 <a href="#">Categoria 2</a></p>
+					<p class="extracto">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
+						lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh 
+						vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+					</p>
+					</article>
+					<article>
+					<img src="image/im_eventos.jpg" class="thumb">
+					<hgroup>
+						<h2><a href="#">Titulo 3</a></h2>
+					</hgroup>
+					<p class="date">01 de Agosto del 2016 <a href="#">Categoria 3</a></p>
+					<p class="extracto">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
+						lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh 
+						vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+					</p>
+					</article>
+					<article>
+					<img src="image/im_eventos.jpg" class="thumb">
+					<hgroup>
+						<h2><a href="#">Titulo 4</a></h2>
+					</hgroup>
+					<p class="date">01 de Agosto del 2016 <a href="#">Categoria 4</a></p>
+					<p class="extracto">
+						This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, 
+						lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh 
+						vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. 
+					</p>
+					</article>
+					<div class="paginacion">
+						<p>
+							<a href="#"><</a>
+							<a href="#">1</a>
+							<a href="#">2</a>
+							<a href="#">3</a>
+							<a href="#">4</a>
+							<a href="#">5</a>
+							<a href="#">></a>
+						</p>
+					</div>
+				</section>
+			</div>
+			<aside>
+				<section class="widget">
+					<h3>Buscar</h3>
+					<div>
+						<h4>Evento :</h4>
+						<input type="text" name="buscar">
+					</div>
+				</section>
+				<section class="widget">
+					<h3>Calendario</h3>
+					<div>
+						<img src="image/img_calendario.png">
+					</div>
+				</section>
+				<section class="widget">
+					<h3>Evento por Fecha</h3>
+					<div>
+						<h4>Desde :</h4>
+						<input type="text" name="desde">
+						<h4>Al :</h4>
+						<input type="text" name="al">
+					</div>
+				</section>
+			</aside>
 		</section>
+		<footer>
+			<section id="ft_widget">
+				<section class="widget">
+					<h3>Fand Page</h3>
+					<div>
+						<img src="image/img_facebook.png">
+					</div>
+				</section>
+				<section class="widget">
+					<h3>Contactenos</h3>
+
+				</section>
+				<section class="widget">
+					<h3>Contactenos</h3>
+					
+				</section>
+				<section class="widget">
+					<h3>Ubiquenos</h3>
+					<div>
+						<img src="image/img_maps.jpg">
+					</div>
+				</section>
+			</section>
+			<p class="copyright">Designed by Ymas Solution - ¿Que Hacer En Trujillo? 2016 - Derechos Resservados</p>
+		</footer>
 	</body>
 </html>

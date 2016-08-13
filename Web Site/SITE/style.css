@@ -4,15 +4,17 @@
 	padding:0px;	
 }
 body{
-	background:#160049;
-	font-size:12pt;
-	font-family:helvetica,arial;	
+	background-color: #160049;
+	font-size:10pt;
+	font-family:"open sans-serif",helvetica,arial;	
 }
 header,#main,footer{
 	width:100%;	
 	margin:0px auto;
-	margin-right: auto;
-    margin-left: auto;
+	
+}
+#main{
+	background-color: #ffffff;
 }
 a{
 	color:#ffffff;
@@ -20,34 +22,35 @@ a{
 }
 /*----- Header -----*/
 header{	
-	
+	overflow: hidden;
+	width: 100%;
+
 }
 
 #logo{
+	color: #ffffff;
 	float:left;
-	margin-left: 50px;
+	width: 30%;
+	text-align: right;
 }
-#logo p{	
-	font-family:helvetica,arial;
-	font-size:2rem;
-	font-weight:100;
-	text-align:right;
-	color:#ffffff;
-	margin-top:30px;
+#logo h1{	
+	margin: 0 0 2px 0;
+    font-size: 1.3rem;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 20px;
+    
 }
 #logo span {
-	text-align:right;
-	width:100%;
-	display:block;
-	position:relative;
-	font-family:'Raleway', helvetica, arial, sans-serif;
-	font-weight:400;
-	
-	margin-bottom:10px;
-	color:#fff;
+	margin: 0 0 2px 0;
+    font-size: 17px;
+    font-weight: normal;
+    line-height: 1;
+    margin-top: 10px;
 }
 header nav {
 	float: right;
+	width: 70%;
 }
 .menu{
 	display: none;
@@ -123,6 +126,7 @@ header nav ul li a {
 #main{
 	overflow:hidden;
 }
+
 /*----- Slider -----*/
 .slider{
 	position: relative;
@@ -140,9 +144,7 @@ header nav ul li a {
 	top: 100px;
 	text-align: center;
 	width: 100%;
-	color: #ffffff;
-
-	
+	color: #ffffff;	
 }
 .text-video span h1{
 	padding: 5px 0;
@@ -182,4 +184,127 @@ header nav ul li a {
 	display: block;
 	text-align: center;
 	margin-right: 10px;
+}
+
+/*----- Lista Categoria -----*/
+#main #pagina{
+	clear: both;
+	width: 75%;
+	float: left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+
+}
+#lista_categoria{
+	margin-top: 25px;
+	margin-bottom: 25px;
+
+}
+
+select {
+width:353px;
+padding:12px;
+margin-top:8px;
+font-family:Cursive;
+line-height:1;
+border-radius:5px;
+background-color:#160049;
+color:#ffffff;
+font-size:20px;
+-webkit-appearance:none;
+box-shadow:inset 0 0 10px 0 rgba(0,0,0,0.6);
+outline:none;
+text-align-last: center;
+}
+select:hover {
+color:#e62117
+}
+select option{
+	text-align-last: center;
+}
+
+#lista_articulo article{
+	margin-bottom: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid#333333;
+	overflow: hidden;
+}
+
+#lista_articulo article .thumb{
+	width: 20%;
+	float: left;
+	margin-right: 1%;
+}
+#lista_articulo a{
+	font-weight: 300;	
+	color:#160049;
+}
+#lista_articulo a:hover{
+	text-decoration:none;
+	color: #bf2222;
+}
+.date{
+	font-weight: 600;
+}
+
+.extracto{
+	margin-top: 10px;
+	text-align: justify;
+}
+.paginacion{
+	width: 100%;
+}
+.paginacion p{
+	text-align: center;
+}
+.paginacion p a{
+	margin:0px 10px;
+}
+/*----- SiderBar -----*/
+#main aside{
+	width: 25%
+	float:left;
+	margin-left: 2%;
+	margin-right: 2%;
+	margin-top: 2%;
+	margin-bottom: 2%;
+}
+#pagina .widget{
+	width: 100%;
+}
+.widget{
+	display:block;
+	float: left;
+	margin-bottom: 10px;
+}
+
+/*----- Footer -----*/
+footer{
+	width: 100%;
+
+}
+footer #ft_widget{
+	width: 100%;
+}
+footer #ft_widget .widget{
+	width: 25%;
+}
+footer #ft_widget .widget h3{
+	color: #ffffff;
+}
+footer #ft_widget .widget h2{
+	color: #ffffff;
+}
+footer #ft_widget .widget img{
+	align:center;
+	width: 20px;
+	height: 20px;
+}
+footer .copyright{
+	width: 100%;
+	margin-bottom: 20px;
+	clear: both;
+	text-align: center;
 }
